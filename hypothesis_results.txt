@@ -1,0 +1,18 @@
+Mann-Whitney U Test for Discount impact on Cart Items:
+P-value: 0.603447
+Mean With Discount: 4.42
+Without Discount: 4.46
+Conclusion: ГИПОТЕЗА ОТВЕРГНУТА: Разница в среднем размере корзины НЕ является статистически значимой (p-value = 0.6034).
+
+Mann-Whitney U Test for Discount impact on Cart Items:
+P-value: 0.603447
+Mean With Discount: 4.42
+Without Discount: 4.46
+Conclusion: ГИПОТЕЗА ОТВЕРГНУТА: Разница в среднем размере корзины НЕ является статистически значимой (p-value = 0.6034).
+
+Mann-Whitney U Test for Discount impact on Cart Items:
+P-value: 0.603447
+Mean With Discount: 4.42
+Without Discount: 4.46
+Conclusion: ГИПОТЕЗА ОТВЕРГНУТА: Разница в среднем размере корзины НЕ является статистически значимой (p-value = 0.6034).
+
