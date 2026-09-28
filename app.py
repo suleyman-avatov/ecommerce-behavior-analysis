@@ -9,12 +9,8 @@ st.set_page_config(
     page_title='E-commerce Behavior Analysis', 
     layout="wide", 
     initial_sidebar_state="expanded",
-    page_icon="🛒" # Добавил иконку для красоты
 )
 
-# ==========================================
-# НАДЕЖНОЕ ОПРЕДЕЛЕНИЕ ПУТЕЙ
-# ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 
@@ -24,7 +20,7 @@ ML_FEATURES_PATH = os.path.join(DATA_DIR, 'ml_top_feature_engagement.csv')
 @st.cache_data(ttl=600)
 def load_data():
     if not os.path.exists(DATA_PATH):
-        st.error(f"❌ Файл данных не найден по пути: {DATA_PATH}")
+        st.error(f" Файл данных не найден по пути: {DATA_PATH}")
         st.stop()
     return pd.read_csv(DATA_PATH)
 
@@ -50,7 +46,6 @@ if df.empty:
     st.error("Данные пусты.")
     st.stop()
 
-# ... остальной ваш код без изменений ...
 
 df = load_data()
 features_imp_df, is_real_ml_data = load_ml_results()
